@@ -1,0 +1,22 @@
+{
+  "id": "9ff936e5-ba84-4cda-a9ba-6760026405a6",
+  "name": "Coding",
+  "publisher": "ldo at agiles Business Software",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "12.0.0.0",
+  "application": "12.0.0.0",
+  "idRange": {
+    "from": 50100,
+    "to": 50149
+  }
+}

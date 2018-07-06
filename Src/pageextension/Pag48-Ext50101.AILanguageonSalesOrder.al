@@ -5,7 +5,7 @@ pageextension 50101 "AI Language on Sales Order" extends "Sales Order" //48
         //field not visible when added after "Quote No.". 
         //What am i missing here?
         //addafter("Quote No.")
-        addfirst(General)
+        addafter("Quote No.")
         {
             field("AI Language"; "AI Language")
             {

@@ -2,8 +2,7 @@ page 50101 "AI Supported Languages List"
 {
     PageType = List;
     SourceTable = "AI Supported Language";
-    CaptionML = ENU = 'AI Supported Languages List',
-                DEU = 'KI unterstütze Sprachen Liste';
+    Caption = 'AI Supported Languages List'; //CaptionML will be depreciated
     UsageCategory=Lists;
     ApplicationArea = All;
     layout

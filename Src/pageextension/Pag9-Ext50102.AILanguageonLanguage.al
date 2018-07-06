@@ -1,4 +1,4 @@
-pageextension 50102 "AI Language on Language" extends "Languages" //MyTargetPageId
+pageextension 50102 "AI Language on Language" extends "Languages" //9
 {
     layout
     {

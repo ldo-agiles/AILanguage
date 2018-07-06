@@ -1,4 +1,4 @@
-tableextension 50101 "AI Language on Sales Header" extends "Sales Header" //MyTargetTableId
+tableextension 50102 "AI Language on Language" extends "Language" //8
 {
     fields
     {
@@ -6,8 +6,7 @@ tableextension 50101 "AI Language on Sales Header" extends "Sales Header" //MyTa
         {
             Caption ='AI Language'; //CaptionML will be depreciated
             TableRelation = "AI Supported Language";
-
         }
     }
+    
 }
-

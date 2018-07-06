@@ -1,3 +1,4 @@
 {
-    "al.codeAnalyzers": ["${PerTenantExtensionCop}"]
+    "al.codeAnalyzers": ["${PerTenantExtensionCop}"],
+    "CRS.ObjectNamePrefix": ""
 }

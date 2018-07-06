@@ -4,9 +4,14 @@
         {
             "type": "al",
             "request": "launch",
-            "name": "Microsoft cloud sandbox",
+            "name": "localhost",
+            "server": "https://air-d365bc-dev.westeurope.cloudapp.azure.com",
+            "serverInstance": "NAV",
+            "tenant": "default",
+            "authentication": "UserPassword",
             "startupObjectId": 42,
-            "startupObjectType": "Page"
+            "startupObjectType": "Page",
+            "schemaUpdateMode": "Recreate"
         }
     ]
 }

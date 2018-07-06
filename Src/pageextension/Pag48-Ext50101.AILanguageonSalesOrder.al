@@ -1,4 +1,4 @@
-pageextension 50101 "AI Language on Sales Order" extends "Sales Order" //MyTargetPageId
+pageextension 50101 "AI Language on Sales Order" extends "Sales Order" //48
 {
     layout
     {
@@ -10,10 +10,6 @@ pageextension 50101 "AI Language on Sales Order" extends "Sales Order" //MyTarge
             field("AI Language"; "AI Language")
             {
                 ApplicationArea = ALL;
-                Visible = true;
-                CaptionML = ENU = 'AI Language',
-                            DEU = 'KI Sprache';
-            
             }
         }
     }

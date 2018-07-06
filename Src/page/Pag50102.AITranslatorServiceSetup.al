@@ -2,9 +2,8 @@ page 50102 "AI Translator Service Setup"
 {
     PageType = Card;
     SourceTable = "AI Translator Service Setup";
-    CaptionML = ENU = 'AI Translator Service Setup',
-                DEU = 'KI Übersetzungsservice Einrichtung';
-    UsageCategory=Administration;
+    Caption = 'AI Translator Service Setup';
+    UsageCategory = Administration;
     ApplicationArea = All;
     layout
     {
@@ -15,12 +14,12 @@ page 50102 "AI Translator Service Setup"
                 field(URL; URL)
                 {
                     ApplicationArea = All;
-                    
+
                 }
             }
         }
     }
-    
+
     actions
     {
         area(processing)
@@ -28,16 +27,16 @@ page 50102 "AI Translator Service Setup"
             action("Supported languages list")
             {
                 ApplicationArea = All;
-                Caption ='AI Supported Language';
+                Caption = 'AI Supported Language';
                 Promoted = true;
                 PromotedCategory = Process;
                 PromotedIsBig = true;
                 Image = Language;
-
+                RunObject = page "AI Supported Languages List";
 
                 trigger OnAction()
                 begin
-                    
+
                 end;
             }
         }

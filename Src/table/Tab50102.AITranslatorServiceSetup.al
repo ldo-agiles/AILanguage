@@ -15,6 +15,12 @@ table 50102 "AI Translator Service Setup"
             
             DataClassification = CustomerContent;
         }
+        field(3; "Azure Key"; Text[250])
+        {
+            Caption = 'Azure Subscription Key';
+            
+            DataClassification = CustomerContent;
+        }
     }
     
     keys

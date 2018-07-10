@@ -1,4 +1,4 @@
-codeunit 50104 "AL Translator Translate"
+codeunit 50104 "AI Translator Translate"
 {
     //why temporary?
 procedure Translate(Text2Translate: record "Text To Translate" temporary)

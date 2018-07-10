@@ -21,6 +21,7 @@ page 50103 "AI Translator Setup Wizard"
                   ShowCaption=false;
                 }
             }
+            
             group(FinishedBanner)
             {
                 Caption='';

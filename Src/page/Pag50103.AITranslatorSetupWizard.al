@@ -44,7 +44,7 @@ page 50103 "AI Translator Setup Wizard"
                     group(Group18)
                     {
                         Caption='';
-                        InstructionalText='Step1 - This Wizard will guide you through the installation.';
+                        InstructionalText='Hello - This Wizard will guide you through the installation.';
                     }
                 }
                 group("Let's go!")
@@ -53,7 +53,7 @@ page 50103 "AI Translator Setup Wizard"
                     group(Group22)
                     {
                         Caption='';
-                        InstructionalText='Step1 - Please keep your Azure Key at hand.';
+                        InstructionalText='Prequisites: Please keep your Azure Key at hand.';
                     }
                 }
             }
@@ -61,9 +61,9 @@ page 50103 "AI Translator Setup Wizard"
             group(Step2)
             {
                 Caption='';
-                InstructionalText='Step2 - Please insert your Azure Key.';
+                InstructionalText='Please insert your Azure Key.';
                 Visible=Step2Visible;
-                //You might want to add fields here
+                
                 field("Azure Key";"Azure Key")
                 {
                     ApplicationArea = All;
@@ -77,7 +77,7 @@ page 50103 "AI Translator Setup Wizard"
                 group(Group23)
                 {
                     Caption='';
-                    InstructionalText='Step3 - Saving the setupdata.';
+                    InstructionalText='Saving the setupdata.';
                 }
                 group("That's it!")
                 {
